@@ -21,7 +21,7 @@
  * 
  */
 
-package it.marconicivitavecchia.as2018_19.c5Binf;
+package it.marconicivitavecchia.as2018_19.c5Ainf;
 import javax.swing.*;
 
 
@@ -36,7 +36,7 @@ public class MainClass extends JFrame {
 		super.pack(); 
 		super.setVisible(true);
 		
-		System.out.println("Construtor");
+		System.out.println("Monolithics application from 5Ainf");
 	}
 	
 	public static void main (String[] args) {
