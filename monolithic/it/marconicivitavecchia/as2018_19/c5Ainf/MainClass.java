@@ -31,7 +31,12 @@ public class MainClass extends JFrame {
 		super("Lista Bar");
 		super.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		
-		super.add(new JLabel("<html><h1>Menu</h1><ul><li>Pizzetta   1euro</li><li>Hotdog   2euro</li></ul></html>"));
+		StringBuilder sb = new StringBuilder("<html>");
+		sb.append("</html>");
+		
+		String str = sb.toString();
+		
+		//super.add(new JLabel("<html><h1>Menu</h1><ul><li>Pizzetta   1euro</li><li>Hotdog   2euro</li></ul></html>"));
 		
 		super.pack(); 
 		super.setVisible(true);
