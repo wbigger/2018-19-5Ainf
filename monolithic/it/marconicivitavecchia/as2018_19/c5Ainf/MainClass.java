@@ -53,6 +53,36 @@ public class MainClass extends JFrame {
 		// close first row
 		sb.append("</div>");
 
+		// create the second row
+		sb.append("<div style='display:table-row'>");
+
+		// create the Product cell
+		sb.append("<div style='display:table-cell'>");
+		sb.append("Pizzetta");
+		sb.append("</div>");
+		// create the Price cell
+		sb.append("<div style='display:table-cell'>");
+		sb.append("1 euro");
+		sb.append("</div>");
+
+		// close third row
+		sb.append("</div>");
+
+		// create the second row
+		sb.append("<div style='display:table-row'>");
+
+		// create the Product cell
+		sb.append("<div style='display:table-cell'>");
+		sb.append("Hot Dog");
+		sb.append("</div>");
+		// create the Price cell
+		sb.append("<div style='display:table-cell'>");
+		sb.append("2 euro");
+		sb.append("</div>");
+
+		// close third row
+		sb.append("</div>");
+
 		// close div for table
 		sb.append("</div>");
 
